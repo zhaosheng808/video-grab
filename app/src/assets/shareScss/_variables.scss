@@ -1,0 +1,42 @@
+/* 改变主题色变量 */
+$--color-primary: #2993f2;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+//image路径
+//$share-image-path: './assets/images/';
+
+// 高亮颜色
+$active-color: #2e9aee;
+
+// header
+$header-bg: #ffffff;
+$header-height: 58px;
+
+// 左边菜单栏
+$left-bg: #2f3133;
+$left-width: 200px;
+$left-height: calc(100vh - #{$header-height});
+
+// 右边
+$right-height: calc(100vh - #{$header-height});
+
+// 按钮
+//$btn-default-color:              #fff !default;
+//$btn-default-bg:                 #2cbc8a !default;
+
+//== Tables
+
+//** Default background color used for all tables.
+$table-bg: #ffffff !default;
+//** Background color used for `.table-striped`.
+$table-bg-accent: #f4f4f4 !default;
+//** Background color used for `.table-hover`.
+$table-bg-hover: #d8ecfd !default;
+$table-bg-active: $table-bg-hover !default;
+
+//** Border color for table and cell borders.
+$table-border-color: #c8c8c8 !default;

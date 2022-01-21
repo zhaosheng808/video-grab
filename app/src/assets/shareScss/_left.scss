@@ -1,0 +1,22 @@
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: $left-width;
+  background-color: $left-bg;
+
+  > ul {
+    width: 100%;
+    height: 100%;
+
+    > li, .el-submenu__title {
+      background-color: #3a3f43;
+    }
+
+    .is-active {
+      background-color: #1890ff;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "root": true,
+  "extends": "google",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": [
+    "html",
+    "dfsx"
+  ],
+  "settings": {
+    "html/html-extensions": [
+      ".htm",
+      ".html",
+      ".ejs",
+      ".vue"
+    ],
+    "html/report-bad-indent": 2
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-multi-spaces": 0,
+    "arrow-parens": 0,
+    "no-var": 0,
+    "linebreak-style": 0,
+    "require-jsdoc": 0,
+    "padded-blocks": 0,
+    "comma-dangle": 0,
+    "eol-last": 0,
+    "no-unused-vars": 0,
+    "indent": [
+      "error",
+      2
+    ],
+    "camelcase": 0,
+    "object-curly-spacing": [2, "always"],
+    "newline-after-var": [0],
+    "max-len": [
+      2, {
+        "code": 140
+      }
+    ],
+    "new-cap": [
+      2, {
+        "capIsNew": false,
+        "properties": false
+      }
+    ],
+    "space-before-function-paren": [
+      4, {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ],
+    "object-shorthand": 0,
+    "no-undef": 0,
+    "no-invalid-this": 0,
+    "no-plusplus": 0,
+    "no-trailing-spaces": 0,
+    "guard-for-in": 0,
+    "dfsx/dfsx-camelcase": 2
+  }
+}

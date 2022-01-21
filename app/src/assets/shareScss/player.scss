@@ -1,0 +1,436 @@
+.vjs-custom-skin > .video-js {
+    width: 100%;
+    height: 100%;
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+
+.vjs-custom-skin > .video-js .vjs-menu-button-inline.vjs-slider-active, .vjs-custom-skin > .video-js .vjs-menu-button-inline:focus, .vjs-custom-skin > .video-js .vjs-menu-button-inline:hover, .video-js.vjs-no-flex .vjs-menu-button-inline {
+    width: 10em
+}
+
+.vjs-custom-skin > .video-js .vjs-controls-disabled .vjs-big-play-button {
+    display: none !important
+}
+
+.vjs-custom-skin > .video-js .vjs-control {
+    width: 3em
+}
+
+.vjs-custom-skin > .video-js .vjs-control.vjs-live-control {
+    width: auto;
+    padding-left: .5em;
+    letter-spacing: .1em;
+}
+
+.vjs-custom-skin > .video-js .vjs-menu-button-inline:before {
+    width: 1.5em
+}
+
+.vjs-menu-button-inline .vjs-menu {
+    left: 3em
+}
+
+.vjs-paused.vjs-has-started.vjs-custom-skin > .video-js .vjs-big-play-button, .video-js.vjs-ended .vjs-big-play-button, .video-js.vjs-paused .vjs-big-play-button {
+    display: block
+}
+
+.vjs-custom-skin > .video-js .vjs-load-progress div, .vjs-seeking .vjs-big-play-button, .vjs-waiting .vjs-big-play-button {
+    display: none !important
+}
+
+.vjs-custom-skin > .video-js .vjs-mouse-display:after, .vjs-custom-skin > .video-js .vjs-play-progress:after {
+    padding: 0 .4em .3em
+}
+
+.video-js.vjs-ended .vjs-loading-spinner {
+    display: none;
+}
+
+.video-js.vjs-ended .vjs-big-play-button {
+    display: block !important;
+}
+
+.video-js.vjs-ended .vjs-big-play-button, .video-js.vjs-paused .vjs-big-play-button, .vjs-paused.vjs-has-started.vjs-custom-skin > .video-js .vjs-big-play-button {
+    display: block
+}
+
+.vjs-custom-skin > .video-js .vjs-big-play-button {
+    top: 50%;
+    left: 50%;
+    margin-left: -1em;
+    margin-top: -1em
+}
+
+.vjs-custom-skin > .video-js .vjs-big-play-button {
+    background-color: rgba(0, 0, 0, 0.45);
+    font-size: 3.5em;
+    border-radius: 50%;
+    height: 2em !important;
+    width: 2em !important;
+    line-height: 2em !important;
+    margin-top: -1em !important
+}
+
+.video-js:hover .vjs-big-play-button, .vjs-custom-skin > .video-js .vjs-big-play-button:focus, .vjs-custom-skin > .video-js .vjs-big-play-button:active {
+    background-color: rgba(36, 131, 213, 0.9)
+}
+
+.vjs-custom-skin > .video-js .vjs-loading-spinner {
+    border-color: rgba(36, 131, 213, 0.8)
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar2 {
+    background-color: #000000
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar {
+    /*background-color: rgba(0,0,0,0.3) !important;*/
+    color: #ffffff;
+    font-size: 14px
+}
+
+.vjs-custom-skin > .video-js .vjs-play-progress, .vjs-custom-skin > .video-js .vjs-volume-level {
+    background-color: #2483d5
+}
+
+.vjs-custom-skin > .video-js .vjs-play-progress:before {
+    top: -0.3em;
+}
+
+.vjs-custom-skin > .video-js .vjs-progress-control:hover .vjs-progress-holder {
+    font-size: 1.3em;
+}
+
+.vjs-menu-button-popup.vjs-volume-menu-button-vertical .vjs-menu {
+    left: 0em;
+}
+
+.vjs-custom-skin > .video-js .vjs-menu li {
+    padding: 0;
+    line-height: 2em;
+    font-size: 1.1em;
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+
+.vjs-custom-skin > .video-js .vjs-time-tooltip,
+.vjs-custom-skin > .video-js .vjs-mouse-display:after,
+.vjs-custom-skin > .video-js .vjs-play-progress:after {
+    border-radius: 0;
+    font-size: 1em;
+    padding: 0;
+    width: 3em;
+    height: 1.5em;
+    line-height: 1.5em;
+    top: -3em;
+}
+
+.vjs-custom-skin > .video-js .vjs-menu-button-popup .vjs-menu {
+    width: 5em;
+    left: -1em;
+}
+
+.vjs-custom-skin > .video-js .vjs-menu-button-popup.vjs-volume-menu-button-vertical .vjs-menu {
+    left: 0;
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar .vjs-resolution-button .vjs-menu {
+    /*order: 4;*/
+}
+
+/*排序顺序*/
+.vjs-custom-skin > .video-js .vjs-control-bar .vjs-play-control {
+    order: 0;
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar .vjs-time-control {
+    min-width: 1em;
+    padding: 0;
+    margin: 0 .1em;
+    text-align: center;
+    display: block;
+    order: 1;
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar .vjs-playback-rate .vjs-playback-rate-value {
+    font-size: 1.2em;
+    line-height: 2.4;
+}
+
+.vjs-custom-skin > .video-js .vjs-progress-control.vjs-control {
+    order: 2;
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar .vjs-volume-menu-button {
+    order: 3;
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar .vjs-resolution-button {
+    order: 4;
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar .vjs-resolution-button .vjs-resolution-button-label {
+    display: block;
+    line-height: 3em;
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar .vjs-playback-rate {
+    order: 5;
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar .vjs-fullscreen-control {
+    order: 7;
+}
+
+// 自定义按钮
+.vjs-custom-skin {
+    display: inline-block;
+    box-sizing: content-box;
+
+    > .video-js {
+        button {
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .vjs-control-bar {
+            .vjs-icon-capture {
+                order: 6;
+                cursor: pointer;
+
+                .vjs-icon-placeholder {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url("../images/player/flag.png") no-repeat center;
+                }
+            }
+
+            .vjs-picture-in-picture-control {
+                display: none;
+            }
+
+            .vjs-control {
+                width: 42px;
+                height: 42px;
+
+                .vjs-icon-placeholder:before {
+                    font-size: 26px !important;
+                }
+            }
+
+            .vjs-volume-vertical {
+                height: 8em;
+                width: 3em;
+            }
+        }
+    }
+}
+
+.vjs-edit-skin {
+    position: relative;
+
+    .video-js {
+        .vjs-tech {
+            top: 42px;
+            height: calc(100% - 42px - 25px - 42px);
+        }
+
+        .vjs-control-bar {
+            background: #292929;
+            opacity: 1 !important;
+            z-index: 1;
+            display: flex;
+
+            .vjs-icon-mycurrent {
+                order: 0;
+                width: auto;
+            }
+
+            .vjs-icon-myduration {
+                order: 2;
+                width: auto;
+            }
+
+            .vjs-icon-space {
+                order: 4;
+                width: auto;
+                flex-grow: 1;
+            }
+
+            .vjs-icon-previous {
+                order: 5;
+                cursor: pointer;
+
+                .vjs-icon-placeholder {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url("../images/player/previous.png") no-repeat center;
+                }
+            }
+
+            .vjs-icon-next {
+                order: 6;
+                cursor: pointer;
+
+                .vjs-icon-placeholder {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url("../images/player/next.png") no-repeat center;
+                }
+            }
+
+            .vjs-icon-capture {
+                order: 7;
+            }
+
+            .vjs-icon-inpos {
+                order: 8;
+                cursor: pointer;
+
+                .vjs-icon-placeholder {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url("../images/player/inpos.png") no-repeat center;
+                }
+            }
+
+            .vjs-icon-outpos {
+                order: 9;
+                cursor: pointer;
+
+                .vjs-icon-placeholder {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url("../images/player/outpos.png") no-repeat center;
+                }
+            }
+
+            .vjs-icon-posok {
+                order: 10;
+                cursor: pointer;
+
+                .vjs-icon-placeholder {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url("../images/player/sure.png") no-repeat center;
+                }
+            }
+
+            .vjs-icon-poscancel {
+                order: 11;
+                cursor: pointer;
+
+                .vjs-icon-placeholder {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url("../images/player/cancel.png") no-repeat center;
+                }
+            }
+
+            .vjs-icon-output {
+                order: 12;
+                cursor: pointer;
+
+                .vjs-icon-placeholder {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url("../images/player/output.png") no-repeat center;
+                }
+            }
+
+            .vjs-icon-fullscreen {
+                order: 13;
+                cursor: pointer;
+
+                .vjs-icon-placeholder {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url("../images/player/fullscreen.png") no-repeat center;
+                }
+            }
+
+            .vjs-icon-exitfullscreen {
+                .vjs-icon-placeholder {
+                    background: url("../images/player/exitfullscreen.png") no-repeat center;
+                }
+            }
+
+            .vjs-volume-panel {
+                order: 13;
+            }
+
+            .vjs-fullscreen-control {
+                order: 14;
+            }
+
+            //.vjs-progress-control {
+            //    position: absolute;
+            //    left: 0;
+            //    bottom: 42px;
+            //    width: 100%;
+            //    height: 25px;
+            //}
+        }
+    }
+
+    > .vjs-edit-postion {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 42px;
+        width: 100%;
+        background: #292929;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .position-in {
+            margin-left: 20px;
+            color: #fff;
+        }
+
+        .position-out {
+            color: #fff;
+        }
+
+        .position-dur {
+            margin-right: 20px;
+            color: #fff;
+        }
+    }
+
+    > .vjs-progress-edit {
+        position: absolute;
+        left: 0;
+        bottom: 42px;
+        height: 25px;
+        width: 100%;
+        background: #292929;
+
+        .edit-progress-control {
+            position: relative;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+
+            .edit-progress-position {
+                position: absolute;
+                top: 0;
+                height: 25px;
+                width: 1px;
+                padding: 1px;
+                border-left: 3px dotted rgba(56, 251, 194, 1);
+                cursor: pointer;
+            }
+        }
+    }
+}

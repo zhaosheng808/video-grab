@@ -1,0 +1,134 @@
+﻿div {
+  box-sizing: border-box;
+}
+
+.login {
+  width: 802px;
+  height: 566px;
+  position: absolute;
+  top: calc(50% - 283px);
+  left: calc(50% - 401px);
+  background: url(../images/lflogin/bg.png) no-repeat;
+  padding-top: 86px;
+}
+
+.logo {
+  width: 420px;
+  height: 44px;
+  margin: 36px auto 58px;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.title-center {
+  display: table;
+  margin: 0 auto;
+}
+
+.maintitle {
+  font-size: 30px;
+  line-height: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #ffffff;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.logo-img {
+  width: 100%;
+  height: 74px;
+  text-align: center;
+}
+
+.logo-img img {
+  width: 74px;
+  height: 74px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 286px;
+  height: 44px;
+  margin: 28px auto 0;
+  position: relative;
+}
+
+.box img {
+  position: absolute;
+  top: 14px;
+  left: 22px;
+}
+
+.box input {
+  width: 286px;
+  height: 44px;
+  background: url(../images/lflogin/input.png) no-repeat;
+  border: none;
+  padding-left: 50px;
+  outline: none;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.login-button {
+  width: 284px;
+  height: 42px;
+  margin: 28px auto 10px;
+  display: block;
+  background: url(../images/lflogin/loginbtn.png) no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  width: 100%;
+  margin: 0 auto;
+  color: red;
+  padding: 0 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.copyright {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 26px;
+}
+
+img.QRCode {
+  width: 60px;
+  height: 60px;
+  float: left;
+  cursor: pointer;
+}
+
+img.QRCode-bigger {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 18px 6px;
+  cursor: pointer;
+}
+
+img.QRCode-large {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  cursor: pointer;
+}
